@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap-libs/sdk",
+  "name": "@padswap/sdk",
   "license": "MIT",
   "version": "1.0.1",
   "description": "🛠 An SDK for building applications on top of pancakeswap.",

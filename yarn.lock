@@ -2095,10 +2095,8 @@
     mkdirp "^1.0.4"
     rimraf "^2.7.1"
 
-"@pancakeswap-libs/eslint-config-pancake@1.0.0":
+"@padswap/eslint-config-pancake@file:./@padswap/eslint-config-pancake":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/eslint-config-pancake/-/eslint-config-pancake-1.0.0.tgz#da5c17842d1cb0d575bca3de0c9404386c386151"
-  integrity sha512-/rE1jQsgDV+jUvYIJKzIlLGFSYwku8K67nprRMmsbhdG+FHdBJnclIyIbVY1NnVtuwGaP+uBQiS/tn6Zhiyx8w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.7.0"
     "@typescript-eslint/parser" "^4.7.0"
@@ -2109,10 +2107,8 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/sdk@1.0.1":
+"@padswap/sdk@file:./@padswap/sdk":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/sdk/-/sdk-1.0.1.tgz#602e6da34fd5bde0f3c869f9abe63bb5f4aaf063"
-  integrity sha512-N4EZlAD0PD7lgVEE8jOufUPRNBvcR3STSjBC9QVwoKmmH1czEY9lu8/SySecKchZtSi66qAfsrghkdXo8tnJsg==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
@@ -2122,10 +2118,8 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@^0.14.1":
+"@padswap/uikit@file:./@padswap/uikit":
   version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/uikit/-/uikit-0.14.1.tgz#8e42b80678da85d74d9075d49f617ed9171aaff6"
-  integrity sha512-PknRl6qIXSCPPCTseTCEnzaXuW8dowAGUbus500IEZMOtl+hZu+D0g8s0tG6DRcwEIWF1RLmYIWJjuJHiKv8IQ==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

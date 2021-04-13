@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@padswap/sdk'
 
 export const ROUTER_ADDRESS = '0x76437234D29f84D9A12820A137c6c6A719138C24'
 
