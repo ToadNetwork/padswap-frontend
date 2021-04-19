@@ -15,7 +15,7 @@ export declare const scaleVariants: {
 };
 export declare const styleVariants: {
     primary: {
-        backgroundColor: string;
+        background: string;
         color: string;
     };
     secondary: {

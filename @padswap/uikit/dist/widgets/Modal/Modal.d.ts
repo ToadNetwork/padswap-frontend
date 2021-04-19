@@ -1,10 +1,4 @@
 import React from "react";
-import { InjectedProps } from "./types";
-interface Props extends InjectedProps {
-    title: string;
-    hideCloseButton?: boolean;
-    onBack?: () => void;
-    bodyPadding?: string;
-}
-declare const Modal: React.FC<Props>;
+import { ModalProps } from "./types";
+declare const Modal: React.FC<ModalProps>;
 export default Modal;

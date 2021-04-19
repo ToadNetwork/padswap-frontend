@@ -22,45 +22,74 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
+    label: "Vault",
+    icon: "FarmIcon",
+    href: "/farms",
   },
   {
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: '/farms',
+  },
+  {
+    label: 'Chart',
+    icon: 'FarmIcon',
+    href: '/farms',
+  },
+ /* {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/syrup',
+    href: '/syrup',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
+    href: '/lottery',
   },
   {
     label: 'NFT',
     icon: 'NftIcon',
-    href: 'https://pancakeswap.finance/nft',
-  },
-  {
+    href: '/nft',
+  }, */
+  /* {
     label: 'Teams & Profile',
     icon: 'GroupsIcon',
     calloutClass: 'rainbow',
     items: [
       {
         label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
+        href: '/teams',
       },
       {
         label: 'Task Center',
-        href: 'https://pancakeswap.finance/profile/tasks',
+        href: '/profile/tasks',
       },
       {
         label: 'Your Profile',
-        href: 'https://pancakeswap.finance/profile',
+        href: '/profile',
       },
     ],
-  },
+  }, */
   {
+    label: "TOAD",
+    icon: "GroupsIcon",
+    items: [
+      {
+        label: "Farms",
+        href: "https://toad.network/#/why_choose",
+      },
+      {
+        label: "LP Farms",
+        href: "https://toad.network/lpfarming.html",
+      },
+      {
+        label: "Church",
+        href: "https://toadnetwork.church",
+      },
+    ],
+    // calloutClass: "rainbow",
+  },
+/* {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
@@ -81,31 +110,18 @@ const config: MenuEntry[] = [
         href: 'https://pancakeswap.info/accounts',
       },
     ],
-  },
-  {
-    label: 'IFO',
-    icon: 'IfoIcon',
-    href: 'https://pancakeswap.finance/ifo',
-  },
+  },  */
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
+        label: "Github",
+        href: "https://github.com/ToadNetwork",
       },
       {
-        label: 'Github',
-        href: 'https://github.com/pancakeswap',
-      },
-      {
-        label: 'Docs',
-        href: 'https://docs.pancakeswap.finance',
-      },
-      {
-        label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        label: "Medium",
+        href: "https://toadytoad.medium.com/",
       },
     ],
   },
