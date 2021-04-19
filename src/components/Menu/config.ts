@@ -23,18 +23,23 @@ const config: MenuEntry[] = [
   },
   {
     label: "Vault",
-    icon: "FarmIcon",
-    href: "/farms",
+    icon: "VaultIcon",
+    href: "/vault",
+  },
+  {
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: '/pool',
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/farms',
+    href: '/pool',
   },
   {
-    label: 'Chart',
-    icon: 'FarmIcon',
-    href: '/farms',
+    label: 'Chart/Stats',
+    icon: 'ChartIcon',
+    href: '/chart',
   },
  /* {
     label: 'Pools',
@@ -72,7 +77,7 @@ const config: MenuEntry[] = [
   }, */
   {
     label: "TOAD",
-    icon: "GroupsIcon",
+    icon: "ToadLogo",
     items: [
       {
         label: "Farms",
