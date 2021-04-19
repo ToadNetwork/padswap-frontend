@@ -34,7 +34,7 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: '/pool',
+    href: '/farms',
   },
   {
     label: 'Chart/Stats',
