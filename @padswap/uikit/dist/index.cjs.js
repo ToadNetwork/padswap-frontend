@@ -4030,13 +4030,13 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { backgroundimg: "url(images/MonetToad.jpg) no-repeat center center / cover", background: "rgba(43,48,57,0.5)", backgroundDisabled: "#E9EAEB", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#19d9b4", textDisabled: "#BDC2C4", textSubtle: "rgb(37, 216, 174)", borderColor: "#E9EAEB", card: "rgba(43,48,57,0.7)", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { backgroundimg: "url(images/MonetToad.jpg) no-repeat center center / cover", background: "rgba(43,48,57,0.1)", backgroundDisabled: "rgba(255, 5, 5, 0.7)", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "rgba(43, 48, 57, 0.7)", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#19d9b4", textDisabled: "#BDC2C4", textSubtle: "rgb(37, 216, 174)", borderColor: "#E9EAEB", card: "rgba(43,48,57,0.7)", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
         blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "rgba(43,48,57,0.8)", backgroundimg: "url(images/MonetToadNight.jpg) no-repeat center center / cover", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#483f5a", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#19d9b4", textDisabled: "#666171", textSubtle: "#19d9b4", borderColor: "#524B63", card: "rgba(43,48,57,0.8)", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "rgba(43,48,57,0.1)", backgroundimg: "url(images/MonetToadNight.jpg) no-repeat center center / cover", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "rgba(43, 48, 57, 0.7)", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#19d9b4", textDisabled: "#666171", textSubtle: "#19d9b4", borderColor: "#524B63", card: "rgba(43,48,57,0.8)", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
