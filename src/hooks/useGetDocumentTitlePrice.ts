@@ -17,6 +17,7 @@ const useGetDocumentTitlePrice = () => {
 
 
   useEffect(() => {
+    /* document.title = `PancakeSwap${cakePriceUsdString}` */
     document.title = `PadSwap`
   }, [cakePriceUsdString])
 }
