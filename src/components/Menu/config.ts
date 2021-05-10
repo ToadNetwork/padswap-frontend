@@ -39,7 +39,7 @@ const config: MenuEntry[] = [
   {
     label: 'Chart/Stats',
     icon: 'ChartIcon',
-    href: '/chart',
+    href: '/vault',
   },
  /* {
     label: 'Pools',
