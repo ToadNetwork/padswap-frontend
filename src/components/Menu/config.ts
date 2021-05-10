@@ -24,7 +24,7 @@ const config: MenuEntry[] = [
   {
     label: "Vault",
     icon: "VaultIcon",
-    href: "/vault",
+    href: "https://dapps.padswap.exchange/vault",
   },
   {
     label: 'Pools',
