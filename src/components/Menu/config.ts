@@ -24,23 +24,41 @@ const config: MenuEntry[] = [
   {
     label: "Vault",
     icon: "VaultIcon",
-    href: "/vault",
+    href: "https://dapps.padswap.exchange/vault",
   },
+//   {
+//     label: 'Pools',
+//     icon: 'PoolIcon',
+//     href: '/pool',
+//   },
   {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/pool',
+    label: "Farms",
+    icon: "FarmIcon",
+    items: [
+      {
+        label: "PAD-TOAD",
+        href: "https://dapps.padswap.exchange/farms-pad-toad",
+      },
+      {
+        label: "TOAD-BNB",
+        href: "https://dapps.padswap.exchange/farms-toad-bnb",
+      },
+      {
+        label: "TOAD-BUSD",
+        href: "https://dapps.padswap.exchange/farms-toad-busd",
+      },
+      {
+        label: "TOAD ONLY",
+        href: "https://dapps.padswap.exchange/farms-toad-only",
+      },
+    ],
+    // calloutClass: "rainbow",
   },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: 'Chart/Stats',
-    icon: 'ChartIcon',
-    href: '/chart',
-  },
+//   {
+//     label: 'Chart/Stats',
+//     icon: 'ChartIcon',
+//     href: '/chart',
+//   },
  /* {
     label: 'Pools',
     icon: 'PoolIcon',

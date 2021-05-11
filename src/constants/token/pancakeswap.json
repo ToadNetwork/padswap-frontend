@@ -50,6 +50,14 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://padswap.exchange/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+    },
+    {
+      "name": "PAD Token",
+      "symbol": "PAD",
+      "address": "0xC0888d80EE0AbF84563168b3182650c0AdDEb6d5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/pad.png"
     }
   ]
 }
