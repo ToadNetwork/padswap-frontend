@@ -7,6 +7,8 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
+export const TOAD = new Token(ChainId.MAINNET, '0x463e737d8f740395abf44f7aac2d9531d8d539e9', 18, 'TOAD', 'Toad Token')
+export const PAD = new Token(ChainId.MAINNET, '0xC0888d80EE0AbF84563168b3182650c0AdDEb6d5', 18, 'PAD', 'Pad Token')
 export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
@@ -33,7 +35,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, UST, ETH],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, BUSD, USDT, UST, ETH, TOAD, PAD],
 }
 
 /**

@@ -26,7 +26,13 @@ const config: MenuEntry[] = [
     icon: "VaultIcon",
     href: "https://dapps.padswap.exchange/vault",
   },
+//   {
+//     label: 'Pools',
+//     icon: 'PoolIcon',
+//     href: '/pool',
+//   },
   {
+<<<<<<< HEAD
     label: 'Pools',
     icon: 'PoolIcon',
     href: '/pool',
@@ -40,7 +46,35 @@ const config: MenuEntry[] = [
     label: 'Chart/Stats',
     icon: 'ChartIcon',
     href: '/vault',
+=======
+    label: "Farms",
+    icon: "FarmIcon",
+    items: [
+      {
+        label: "PAD-TOAD",
+        href: "https://dapps.padswap.exchange/farms-pad-toad",
+      },
+      {
+        label: "TOAD-BNB",
+        href: "https://dapps.padswap.exchange/farms-toad-bnb",
+      },
+      {
+        label: "TOAD-BUSD",
+        href: "https://dapps.padswap.exchange/farms-toad-busd",
+      },
+      {
+        label: "TOAD ONLY",
+        href: "https://dapps.padswap.exchange/farms-toad-only",
+      },
+    ],
+    // calloutClass: "rainbow",
+>>>>>>> 573a550941a7157f7b465d0c33f4ae49062c9911
   },
+//   {
+//     label: 'Chart/Stats',
+//     icon: 'ChartIcon',
+//     href: '/chart',
+//   },
  /* {
     label: 'Pools',
     icon: 'PoolIcon',
