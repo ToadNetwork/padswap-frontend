@@ -26,27 +26,7 @@ const config: MenuEntry[] = [
     icon: "VaultIcon",
     href: "https://dapps.padswap.exchange/vault",
   },
-//   {
-//     label: 'Pools',
-//     icon: 'PoolIcon',
-//     href: '/pool',
-//   },
   {
-<<<<<<< HEAD
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/pool',
-  },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: 'Chart/Stats',
-    icon: 'ChartIcon',
-    href: '/vault',
-=======
     label: "Farms",
     icon: "FarmIcon",
     items: [
@@ -68,7 +48,6 @@ const config: MenuEntry[] = [
       },
     ],
     // calloutClass: "rainbow",
->>>>>>> 573a550941a7157f7b465d0c33f4ae49062c9911
   },
 //   {
 //     label: 'Chart/Stats',
