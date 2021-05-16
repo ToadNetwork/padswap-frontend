@@ -12,7 +12,7 @@ export default memo(function SwapRoute({ trade }: { trade: Trade }) {
       px="1rem"
       py="0.5rem"
       my="0.5rem"
-      style={{ border: `1px solid ${theme.colors.tertiary}`, borderRadius: '1rem' }}
+      style={{ border: `3px solid rgb(25, 217, 180)`, borderRadius: '1rem', backgroundColor:'rgba(43,48,57,0.7)' }}
       flexWrap="wrap"
       justifyContent="space-evenly"
       alignItems="center"

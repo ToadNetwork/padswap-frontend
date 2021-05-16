@@ -62,7 +62,7 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
             <QuestionHelper
               text={TranslateString(
                 230,
-                'For each trade a 0.3% fee is paid. 0.26% goes to liquidity pool and 0.04% goes to the PadSwap Vault.'
+                'For each trade a 0.3% fee is paid. 0.25% goes to liquidity pool and 0.05% goes to the PadSwap Vault.'
               )}
             />
           </RowFixed>
@@ -91,7 +91,6 @@ export function AdvancedSwapDetails({ trade }: AdvancedSwapDetailsProps) {
           <TradeSummary trade={trade} allowedSlippage={allowedSlippage} />
           {showRoute && (
             <>
-              <SectionBreak />
               <AutoColumn style={{ padding: '0 24px' }}>
                 <RowFixed>
                   <Text fontSize="14px">Route</Text>

@@ -104,7 +104,7 @@ export default function SwapModalFooter({
             <QuestionHelper
               text={TranslateString(
                 999,
-                'For each trade a 0.3% fee is paid. 0.26% goes to liquidity pool and 0.04% goes to the PadSwap Vault.'
+                'For each trade a 0.3% fee is paid. 0.25% goes to liquidity pool and 0.05% goes to the PadSwap Vault.'
               )}
             />
           </RowFixed>

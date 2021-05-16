@@ -17,6 +17,9 @@ export declare const styleVariants: {
     primary: {
         background: string;
         color: string;
+        ":disabled": {
+            backgroundColor: string;
+        };
     };
     secondary: {
         backgroundColor: string;
