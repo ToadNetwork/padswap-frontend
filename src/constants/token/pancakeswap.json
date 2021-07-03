@@ -19,6 +19,14 @@
       "logoURI": "https://padswap.exchange/images/coins/0x463e737d8f740395abf44f7aac2d9531d8d539e9.png"
     },
     {
+      "name": "PAD Token",
+      "symbol": "PAD",
+      "address": "0xC0888d80EE0AbF84563168b3182650c0AdDEb6d5",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/pad.png"
+    },
+    {
       "name": "WBNB Token",
       "symbol": "WBNB",
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
@@ -52,12 +60,44 @@
       "logoURI": "https://padswap.exchange/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
     },
     {
-      "name": "PAD Token",
-      "symbol": "PAD",
-      "address": "0xC0888d80EE0AbF84563168b3182650c0AdDEb6d5",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/pad.png"
+      "logoURI": "https://padswap.exchange/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+    },
+    {
+      "name": "Hoge.Finance",
+      "symbol": "HOGE",
+      "address": "0xa4FFfc757e8c4F24E7b209C033c123D20983Ad40",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0xa4FFfc757e8c4F24E7b209C033c123D20983Ad40.png"
+    },
+    {
+      "name": "PORN ROCKET",
+      "symbol": "PORNROCKET",
+      "address": "0xcf9f991b14620f5ad144eec11f9bc7bf08987622",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0xcf9f991b14620f5ad144eec11f9bc7bf08987622.png"
+    },
+    {
+      "name": "Lazy Finance",
+      "symbol": "LAZY",
+      "address": "0x3f3d55028207348ef3c0cF705fa1a2633858C8a9",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0x3f3d55028207348ef3c0cF705fa1a2633858C8a9.png"
+    },
+    {
+      "name": "JEJUDOGE BSC",
+      "symbol": "JEJUDOGE",
+      "address": "0x2020EB9E26aa49c27ebB72C174cfbab851f7ddE0",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0x2020EB9E26aa49c27ebB72C174cfbab851f7ddE0.png"
     }
   ]
 }

@@ -27,9 +27,34 @@ const config: MenuEntry[] = [
     href: "https://dapps.padswap.exchange/vault",
   },
   {
+    label: 'Liquidity Farm',
+    icon: 'PoolIcon',
+    href: 'https://dapps.padswap.exchange/lpf-pad-toad',
+  },
+  {
     label: "Farms",
     icon: "FarmIcon",
     items: [
+      {
+        label: "PAD-BNB",
+        href: "https://dapps.padswap.exchange/farms-pad-bnb",
+      },
+      {
+        label: "PAD-BUSD",
+        href: "https://dapps.padswap.exchange/farms-pad-busd",
+      },
+      {
+        label: "PAD-ETH",
+        href: "https://dapps.padswap.exchange/farms-pad-eth",
+      },
+      {
+        label: "PAD-BTC",
+        href: "https://dapps.padswap.exchange/farms-pad-btc",
+      },
+      {
+        label: "BNB-BUSD",
+        href: "https://dapps.padswap.exchange/farms-bnb-busd",
+      },
       {
         label: "PAD-TOAD",
         href: "https://dapps.padswap.exchange/farms-pad-toad",
@@ -49,17 +74,13 @@ const config: MenuEntry[] = [
     ],
     // calloutClass: "rainbow",
   },
-//   {
-//     label: 'Chart/Stats',
-//     icon: 'ChartIcon',
-//     href: '/chart',
-//   },
- /* {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: '/syrup',
-  },
   {
+    label: 'Stats',
+    icon: 'ChartIcon',
+    href: 'https://info.padswap.exchange',
+  },
+ 
+/* {
     label: 'Lottery',
     icon: 'TicketIcon',
     href: '/lottery',

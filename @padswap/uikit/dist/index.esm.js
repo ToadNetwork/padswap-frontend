@@ -3552,7 +3552,7 @@ var MenuLink = function (_a) {
 };
 
 var Icons$2 = IconModule;
-var Container$1 = styled.div(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  overflow: hidden;\n  border-radius: 17px 17px 0px 0px;\n  height: 100%;\n"], ["\n  display: flex;\n  flex-direction: column;\n  overflow: hidden;\n  border-radius: 17px 17px 0px 0px;\n  height: 100%;\n"])));
+var Container$1 = styled.div(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  overflow: auto;\n   -ms-overflow-style: none;  /* Internet Explorer 10+ */\n    scrollbar-width: none;  /* Firefox */\n  border-radius: 17px 17px 0px 0px;\n  height: 100%;\n  ::-webkit-scrollbar { \n    display: none;  /* Safari and Chrome */\n}\n"], ["\n  display: flex;\n  flex-direction: column;\n  overflow: auto;\n   -ms-overflow-style: none;  /* Internet Explorer 10+ */\n    scrollbar-width: none;  /* Firefox */\n  border-radius: 17px 17px 0px 0px;\n  height: 100%;\n  ::-webkit-scrollbar { \n    display: none;  /* Safari and Chrome */\n}\n"])));
 var PanelBody = function (_a) {
     var isPushed = _a.isPushed, pushNav = _a.pushNav, isMobile = _a.isMobile, links = _a.links;
     var location = useLocation();
@@ -3642,7 +3642,7 @@ var PanelFooter = function (_a) {
 };
 var templateObject_1$7, templateObject_2$2, templateObject_3$1;
 
-var StyledPanel = styled.div(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  margin-left: 10px;\n  margin-top: 50px;\n  top: 10vh;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 80vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  border-radius: 20px;\n  border: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n\tborder: 3px solid #19d9b4;\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  margin-left: 10px;\n  margin-top: 50px;\n  top: 10vh;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 80vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  border-radius: 20px;\n  border: ", ";\n  z-index: 11;\n  overflow: ", ";\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n\tborder: 3px solid #19d9b4;\n  }\n"])), function (_a) {
+var StyledPanel = styled.div(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  margin-left: 10px;\n  margin-top: 50px;\n  top: 10vh;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 80vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  border-radius: 20px;\n  border: ", ";\n  z-index: 11;\n  overflow: auto;\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n\tborder: 3px solid #19d9b4;\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  margin-left: 10px;\n  margin-top: 50px;\n  top: 10vh;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 80vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  border-radius: 20px;\n  border: ", ";\n  z-index: 11;\n  overflow: auto;\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n\tborder: 3px solid #19d9b4;\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? "0px" : 0);
 }, function (_a) {
@@ -3654,9 +3654,6 @@ var StyledPanel = styled.div(templateObject_1$6 || (templateObject_1$6 = __makeT
 }, function (_a) {
     var isPushed = _a.isPushed;
     return (isPushed ? "3px solid #19d9b4" : 0);
-}, function (_a) {
-    var isPushed = _a.isPushed;
-    return (isPushed ? "initial" : "hidden");
 }, function (_a) {
     var isPushed = _a.isPushed;
     return !isPushed && "white-space: nowrap;";
