@@ -1,7 +1,9 @@
 import React from 'react'
 import { Trade, TradeType } from '@padswap/sdk'
 import { Card, CardBody, Text } from '@padswap/uikit'
+import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
+import { GreyCard } from '../Card'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'
 import { computeSlippageAdjustedAmounts, computeTradePriceBreakdown } from '../../utils/prices'
@@ -19,7 +21,7 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
   const TranslateString = useI18n()
 
   return (
-    <Card>
+    <GreyCard>
       <CardBody>
         <RowBetween>
           <RowFixed>
@@ -71,7 +73,7 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
           </Text>
         </RowBetween>
       </CardBody>
-    </Card>
+    </GreyCard>
   )
 }
 
@@ -91,7 +93,7 @@ export function AdvancedSwapDetails({ trade }: AdvancedSwapDetailsProps) {
           <TradeSummary trade={trade} allowedSlippage={allowedSlippage} />
           {showRoute && (
             <>
-              <AutoColumn style={{ padding: '0 24px' }}>
+              <AutoColumn>
                 <RowFixed>
                   <Text fontSize="14px">Route</Text>
                   <QuestionHelper

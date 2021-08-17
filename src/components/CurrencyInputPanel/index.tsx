@@ -12,28 +12,32 @@ import { RowBetween } from '../Row'
 import { Input as NumericalInput } from '../NumericalInput'
 import { useActiveWeb3React } from '../../hooks'
 
+const WrapperContainer = styled.div`
+
+`
 const InputRow = styled.div<{ selected: boolean }>`
+  backgroud-color: transparent;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  padding: ${({ selected }) => (selected ? '0.75rem 0.5rem 0.75rem 1rem' : '0.75rem 0.75rem 0.75rem 1rem')};
+  padding: 0rem 0rem 0rem 1rem;
 `
 const CurrencySelect = styled.button<{ selected: boolean }>`
+  background-color: #1b1b1b;
   align-items: center;
-  height: 34px;
+  height: 50px;
+  width: 118px;
   font-size: 16px;
   font-weight: 500;
-  background-color: transparent;
   color: ${({ selected, theme }) => (selected ? theme.colors.text : '#FFFFFF')};
-  border-radius: 12px;
+  border-radius: 0px 16px 16px 0px;
+  padding: 0px 8px 0px 10px;
   outline: none;
   cursor: pointer;
   user-select: none;
   border: none;
-  padding: 0 0.5rem;
-  :focus,
   :hover {
-    background-color: ${({ theme }) => darken(0.05, theme.colors.input)};
+    background-color: #000000ab;;
   }
 `
 const LabelRow = styled.div`
@@ -58,13 +62,13 @@ const InputPanel = styled.div<{ hideInput?: boolean }>`
   display: flex;
   flex-flow: column nowrap;
   position: relative;
-  border-radius: ${({ hideInput }) => (hideInput ? '8px' : '20px')};
-  background-color: ${({ theme }) => theme.colors.background};
+  border-radius: ${({ hideInput }) => (hideInput ? '8px' : '16px')};
+  background-color: ${({ theme }) => theme.colors.input};
   z-index: 1;
+  height:50px;
 `
 const Container = styled.div<{ hideInput: boolean }>`
   border-radius: 16px;
-  background-color: ${({ theme }) => theme.colors.input};
   box-shadow: ${({ theme }) => theme.shadows.inset};
 `
 interface CurrencyInputPanelProps {
@@ -108,22 +112,20 @@ export default function CurrencyInputPanel({
     setModalOpen(false)
   }, [setModalOpen])
   return (
+    <WrapperContainer>
+    <LabelRow>
+      <RowBetween>
+        {account && (
+          <Text onClick={onMax} fontSize="15px" style={{ display: 'inline', cursor: 'pointer', marginBottom: '5px', marginLeft: '-10px' }}>
+            {!hideBalance && !!currency && selectedCurrencyBalance
+              ? `BALANCE: ${selectedCurrencyBalance?.toSignificant(6)}`
+              : 'BALANCE: loading...'}
+          </Text>
+        )}
+      </RowBetween>
+    </LabelRow>
     <InputPanel id={id}>
       <Container hideInput={hideInput}>
-        {!hideInput && (
-          <LabelRow>
-            <RowBetween>
-              <Text fontSize="14px">{translatedLabel}</Text>
-              {account && (
-                <Text onClick={onMax} fontSize="14px" style={{ display: 'inline', cursor: 'pointer' }}>
-                  {!hideBalance && !!currency && selectedCurrencyBalance
-                    ? `Balance: ${selectedCurrencyBalance?.toSignificant(6)}`
-                    : ' -'}
-                </Text>
-              )}
-            </RowBetween>
-          </LabelRow>
-        )}
         <InputRow style={hideInput ? { padding: '0', borderRadius: '8px' } : {}} selected={disableCurrencySelect}>
           {!hideInput && (
             <>
@@ -161,13 +163,13 @@ export default function CurrencyInputPanel({
                   {pair?.token0.symbol}:{pair?.token1.symbol}
                 </Text>
               ) : (
-                <Text id="pair">
+                <Text id="pair" style={{ margin: 'auto' }}>
                   {(currency && currency.symbol && currency.symbol.length > 20
                     ? `${currency.symbol.slice(0, 4)}...${currency.symbol.slice(
                         currency.symbol.length - 5,
                         currency.symbol.length
                       )}`
-                    : currency?.symbol) || TranslateString(1196, 'Select a currency')}
+                    : currency?.symbol) || TranslateString(1196, 'SELECT')}
                 </Text>
               )}
               {!disableCurrencySelect && <ChevronDownIcon />}
@@ -186,5 +188,6 @@ export default function CurrencyInputPanel({
         />
       )}
     </InputPanel>
+    </WrapperContainer>
   )
 }

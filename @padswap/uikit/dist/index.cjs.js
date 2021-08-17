@@ -3655,18 +3655,12 @@ var PanelFooter = function (_a) {
 };
 var templateObject_1$7, templateObject_2$2, templateObject_3$1;
 
-var StyledPanel = styled__default['default'].div(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  position: fixed;\n  padding-top: ", ";\n  margin-left: 10px;\n  margin-top: 50px;\n  top: 10vh;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 80vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  border-radius: 20px;\n  border: ", ";\n  z-index: 11;\n  overflow: auto;\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n\tborder: 3px solid #19d9b4;\n  }\n"], ["\n  position: fixed;\n  padding-top: ", ";\n  margin-left: 10px;\n  margin-top: 50px;\n  top: 10vh;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 80vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  border-radius: 20px;\n  border: ", ";\n  z-index: 11;\n  overflow: auto;\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n\tborder: 3px solid #19d9b4;\n  }\n"])), function (_a) {
-    var showMenu = _a.showMenu;
-    return (showMenu ? "0px" : 0);
-}, function (_a) {
+var StyledPanel = styled__default['default'].div(templateObject_1$6 || (templateObject_1$6 = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  z-index: 11;\n  overflow: auto;\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n  }"], ["\n  position: fixed;\n  top: 0px;\n  left: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-shrink: 0;\n  background-color: ", ";\n  width: ", ";\n  height: 100vh;\n  transition: padding-top 0.2s, width 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  z-index: 11;\n  overflow: auto;\n  transform: translate3d(0, 0, 0);\n  ", ";\n\n  ", " {\n    width: ", ";\n  }"])), function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 }, function (_a) {
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL + "px" : 0);
-}, function (_a) {
-    var isPushed = _a.isPushed;
-    return (isPushed ? "3px solid #19d9b4" : 0);
 }, function (_a) {
     var isPushed = _a.isPushed;
     return !isPushed && "white-space: nowrap;";
@@ -3904,10 +3898,7 @@ var UserBlock = function (_a) {
 var UserBlock$1 = React__default['default'].memo(UserBlock, function (prevProps, nextProps) { return prevProps.account === nextProps.account; });
 
 var Wrapper = styled__default['default'].div(templateObject_1$3 || (templateObject_1$3 = __makeTemplateObject(["\n  position: relative;\n  width: 100%;\n"], ["\n  position: relative;\n  width: 100%;\n"])));
-var StyledNav = styled__default['default'].nav(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: fixed;\n  left: 0;\n  top: ", ";\n  width: 98%;\n margin-left: 1%;\n margin-right: 1%;\n  margin-top: 0.8em;\n  border-radius: 20px;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  border: 3px solid #19d9b4;\n  height: ", "px;\n  background-color: ", ";\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  left: 0;\n  top: ", ";\n  width: 98%;\n margin-left: 1%;\n margin-right: 1%;\n  margin-top: 0.8em;\n  border-radius: 20px;\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  border: 3px solid #19d9b4;\n  height: ", "px;\n  background-color: ", ";\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), function (_a) {
-    var showMenu = _a.showMenu;
-    return (showMenu ? 0 : "-" + MENU_HEIGHT + "px");
-}, MENU_HEIGHT, function (_a) {
+var StyledNav = styled__default['default'].nav(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: fixed;\n  left: 240px;\n  top: 0px;\n  width: calc(100vw - 240px);\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  height: ", "px;\n  background-color: ", ";\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: fixed;\n  left: 240px;\n  top: 0px;\n  width: calc(100vw - 240px);\n  transition: top 0.2s;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-left: 8px;\n  padding-right: 16px;\n  height: ", "px;\n  background-color: ", ";\n  z-index: 20;\n  transform: translate3d(0, 0, 0);\n"])), MENU_HEIGHT, function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 });
@@ -4077,13 +4068,13 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { backgroundimg: "url(images/MonetToad.jpg) repeat center center / cover", background: "rgba(43,48,57,0.1)", backgroundDisabled: "#3c3742", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "rgba(43, 48, 57, 0.7)", inputSecondary: "#d7caec", tertiary: "#353547", text: "#19d9b4", textDisabled: "#666171", textSubtle: "rgb(37, 216, 174)", borderColor: "#E9EAEB", card: "rgba(43,48,57,0.7)", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { backgroundimg: "none", background: "rgb(0 0 0/92%)", backgroundDisabled: "#3c3742", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#ffffff0a", inputSecondary: "#d7caec", tertiary: "#353547", text: "#19d9b4", textDisabled: "#666171", textSubtle: "rgb(37, 216, 174)", borderColor: "#E9EAEB", card: "#212429", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
         blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "rgba(43,48,57,0.1)", backgroundimg: "url(images/MonetToadNight.jpg) repeat center center / cover", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "rgba(43, 48, 57, 0.7)", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#19d9b4", textDisabled: "#666171", textSubtle: "#19d9b4", borderColor: "#524B63", card: "rgba(43,48,57,0.8)", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "rgb(0 0 0/92%)", backgroundimg: "none", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#ffffff0a", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#19d9b4", textDisabled: "#666171", textSubtle: "#19d9b4", borderColor: "#524B63", card: "#212429", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",

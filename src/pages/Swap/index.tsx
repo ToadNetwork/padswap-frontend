@@ -263,6 +263,7 @@ const Swap = () => {
         tokens={urlLoadedTokens}
         onConfirm={handleConfirmTokenWarning}
       />
+
       <SyrupWarningModal
         isOpen={isSyrup}
         transactionType={syrupTransactionType}
@@ -289,7 +290,7 @@ const Swap = () => {
             description={TranslateString(1192, 'Trade tokens in an instant')}
           />
           <CardBody>
-            <AutoColumn gap="md">
+            <AutoColumn gap="md" style={{marginTop: '-30px'}}>
               <CurrencyInputPanel
                 label={
                   independentField === Field.OUTPUT && !showWrap && trade
@@ -314,8 +315,8 @@ const Swap = () => {
                         setApprovalSubmitted(false) // reset 2 step UI for approvals
                         onSwitchTokens()
                       }}
-                      style={{ borderRadius: '50%' }}
-                      scale="sm"
+                      style={{ borderRadius: '50%', border: "2px solid white;", marginTop: "20px", width: "34px", height: "34px" }}
+                      scale="xs"
                     >
                       <ArrowDownIcon color="primary" width="24px" />
                     </IconButton>
@@ -464,10 +465,10 @@ const Swap = () => {
               {showApproveFlow && <ProgressSteps steps={[approval === ApprovalState.APPROVED]} />}
               {isExpertMode && swapErrorMessage ? <SwapCallbackError error={swapErrorMessage} /> : null}
             </BottomGrouping>
+            <AdvancedSwapDetailsDropdown trade={trade} />
           </CardBody>
         </Wrapper>
       </AppBody>
-      <AdvancedSwapDetailsDropdown trade={trade} />
     </>
   )
 }

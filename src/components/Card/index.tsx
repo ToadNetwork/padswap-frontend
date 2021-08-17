@@ -3,7 +3,6 @@ import styled from 'styled-components'
 const Card = styled.div<any>`
   width: 100%;
   border-radius: 16px;
-  padding: 1.25rem;
   padding: ${({ padding }) => padding};
   border: ${({ border }) => border};
   border-radius: ${({ borderRadius }) => borderRadius};
@@ -11,10 +10,11 @@ const Card = styled.div<any>`
 export default Card
 
 export const LightCard = styled(Card)`
-  border: 1px solid ${({ theme }) => theme.colors.invertedContrast};
-  background-color: ${({ theme }) => theme.colors.invertedContrast};
+  border: 2px solid #9a9a9a;
+  padding: 10px;
 `
 
 export const GreyCard = styled(Card)`
-  background-color: ${({ theme }) => theme.colors.tertiary};
+  margin-top: 10px;
+  background-color: ${({ theme }) => theme.colors.input};
 `

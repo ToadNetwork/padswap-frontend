@@ -9,10 +9,10 @@ export default memo(function SwapRoute({ trade }: { trade: Trade }) {
   const theme = useContext(ThemeContext)
   return (
     <Flex
-      px="1rem"
+      px="0.2rem"
       py="0.5rem"
       my="0.5rem"
-      style={{ border: `3px solid rgb(25, 217, 180)`, borderRadius: '1rem', backgroundColor:'rgba(43,48,57,0.7)' }}
+      style={{ borderRadius: '1rem', backgroundColor:'rgba(43,48,57,0.7)' }}
       flexWrap="wrap"
       justifyContent="space-evenly"
       alignItems="center"
