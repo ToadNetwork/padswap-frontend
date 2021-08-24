@@ -114,6 +114,22 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://padswap.exchange/images/coins/0xa4cfe5ea184a9a8bb2bb8377a378606a36ddea80.png"
+    },
+    {
+      "name": "FUCK YOU KARENS",
+      "symbol": "FUK",
+      "address": "0xa898bbb508c04be26af3d319b7775927afcb02af",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/0xa898bbb508c04be26af3d319b7775927afcb02af.png"
+    },
+    {
+      "name": "GALLANT",
+      "symbol": "GAL",
+      "address": "0x580655e2c6d4fc125c0b2d37b2a3e56219bf9f78",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0x580655e2c6d4fc125c0b2d37b2a3e56219bf9f78.png"
     }
   ]
 }
