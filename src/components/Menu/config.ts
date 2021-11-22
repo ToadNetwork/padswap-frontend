@@ -2,6 +2,21 @@ import { MenuEntry } from '@padswap/uikit'
 
 const config: MenuEntry[] = [
   {
+    label: "Network",
+    icon: "ToadLogo",
+    items: [
+      {
+        label: "BSC",
+        href: "https://padswap.exchange",
+      },
+      {
+        label: "MoonRiver",
+        href: "https://movr.padswap.exchange",
+      },
+    ],
+    // calloutClass: "rainbow",
+  },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     initialOpenState: true,
@@ -16,15 +31,15 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  // {
+  //   label: "LaunchPad",
+  //   icon: "VaultIcon",
+  //   href: "https://dapps.padswap.exchange/launchpad",
+  // },
   {
-    label: "LaunchPad",
+    label: "MOVR Bridge",
     icon: "VaultIcon",
-    href: "https://dapps.padswap.exchange/launchpad",
-  },
-  {
-    label: "Vault",
-    icon: "VaultIcon",
-    href: "https://dapps.padswap.exchange/vault",
+    href: "https://dapps.padswap.exchange/bridge",
   },
   {
     label: 'Liquidity Farm',

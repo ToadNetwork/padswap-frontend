@@ -130,6 +130,54 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://padswap.exchange/images/coins/0x580655e2c6d4fc125c0b2d37b2a3e56219bf9f78.png"
+    },
+    {
+      "name": "CATOSHI BSC",
+      "symbol": "CZATS",
+      "address": "0x56747ed2fca81b25fae112c7a9d4465e947aac56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/0x56747ed2fca81b25fae112c7a9d4465e947aac56.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/0x55d398326f99059fF775485246999027B3197955.png"
+    },
+    {
+      "name": "DOGE",
+      "symbol": "DOGE",
+      "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://padswap.exchange/images/coins/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
+    },
+    {
+      "name": "CARDANO",
+      "symbol": "ADA",
+      "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47.png"
+    },
+    {
+      "name": "POLKADOT",
+      "symbol": "DOT",
+      "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/images/coins/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402.png"
+    },
+    {
+      "name": "KISHIMOTO INU",
+      "symbol": "KISH",
+      "address": "0xCAb599D699f818e6ceFd07cF54f448DAB9367B05",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0xCAb599D699f818e6ceFd07cF54f448DAB9367B05.png"
     }
   ]
 }
