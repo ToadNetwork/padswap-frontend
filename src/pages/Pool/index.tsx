@@ -108,9 +108,14 @@ export default function Pool() {
               <div>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
                   {TranslateString(106, "Don't see a pool you joined?")}{' '}
-                  <StyledInternalLink id="import-pool-link" to="/find">
-                    {TranslateString(108, 'Import it.')}
-                  </StyledInternalLink>
+                  <Button id="import-pool-link" as={Link} to="/find" style={{
+                  borderRadius: '10px',
+                  padding: '8px',
+                  height: '30px',
+                  marginLeft: '5px',
+                  }}>
+                    {TranslateString(108, 'Import pool')}
+                  </Button>
                 </Text>
                 <Text fontSize="14px" style={{ padding: '.5rem 0 .5rem 0' }}>
                   {TranslateString(1172, 'Or, if you staked your LP tokens in a farm, unstake them to see them here.')}
