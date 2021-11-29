@@ -178,6 +178,14 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://padswap.exchange/images/coins/0xCAb599D699f818e6ceFd07cF54f448DAB9367B05.png"
+    },
+    {
+      "name": "GRANDPA DOGE",
+      "symbol": "MRBTC",
+      "address": "0x001Ef4385D199454b76527fd91Af3Da8C0a51537",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://padswap.exchange/images/coins/0x001Ef4385D199454b76527fd91Af3Da8C0a51537.png"
     }
   ]
 }

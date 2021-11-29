@@ -16,8 +16,17 @@ export declare const scaleVariants: {
 export declare const styleVariants: {
     primary: {
         background: string;
+        backgroundSize: string;
+        transition: string;
+        opacity: string;
+        backgroundPosition: string;
+        textTransform: string;
         color: string;
+        ":hover": {
+            backgroundPosition: string;
+        };
         ":disabled": {
+            color: string;
             backgroundColor: string;
         };
     };
@@ -33,6 +42,8 @@ export declare const styleVariants: {
     };
     tertiary: {
         backgroundColor: string;
+        height: string;
+        borderRadius: string;
         boxShadow: string;
         color: string;
     };
