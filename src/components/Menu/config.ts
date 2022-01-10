@@ -39,7 +39,7 @@ const config: MenuEntry[] = [
   {
     label: "MOVR Bridge",
     icon: "VaultIcon",
-    href: "https://dapps.padswap.exchange/bridge",
+    href: "https://v2.padswap.exchange/bridge",
   },
   {
     label: 'Liquidity Farm',
