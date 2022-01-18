@@ -12,6 +12,18 @@ import Providers from './Providers'
 import 'inter-ui'
 import './i18n'
 
+// workaround for mobile metamask browser. mobile metamask does not inject window.ethereum into iframes
+if (!window.ethereum && window.parent && window.parent.ethereum) {
+  window.ethereum = window.parent.ethereum
+}
+
+// sync auto-connect state from parent window
+const parentCachedProvider = localStorage.getItem('WEB3_CONNECT_CACHED_PROVIDER')
+if (parentCachedProvider) {
+  const cachedProviderValue = JSON.parse(parentCachedProvider).toString() // strip quotes
+  localStorage.setItem('connectorId', cachedProviderValue)
+}
+
 if ('ethereum' in window) {
   (window.ethereum as any).autoRefreshOnNetworkChange = false
 }
