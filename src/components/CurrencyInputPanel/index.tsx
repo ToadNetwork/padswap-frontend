@@ -116,7 +116,7 @@ export default function CurrencyInputPanel({
     <LabelRow>
       <RowBetween>
         {account && (
-          <Text onClick={onMax} fontSize="15px" style={{ display: 'inline', cursor: 'pointer', marginBottom: '5px', marginLeft: '-10px' }}>
+          <Text onClick={onMax} fontSize="14px" style={{ display: 'inline', cursor: 'pointer', marginBottom: '5px', marginLeft: '-10px' }}>
             {!hideBalance && !!currency && selectedCurrencyBalance
               ? `BALANCE: ${selectedCurrencyBalance?.toSignificant(6)}`
               : 'BALANCE: loading...'}

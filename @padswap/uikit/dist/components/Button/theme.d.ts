@@ -15,24 +15,25 @@ export declare const scaleVariants: {
 };
 export declare const styleVariants: {
     primary: {
+        borderRadius: string;
         background: string;
-        backgroundSize: string;
-        transition: string;
-        opacity: string;
-        backgroundPosition: string;
-        textTransform: string;
         color: string;
-        ":hover": {
-            backgroundPosition: string;
-        };
+        textTransform: string;
+        fontWeight: string;
+        fontSize: string;
         ":disabled": {
+            borderRadius: string;
+            background: string;
             color: string;
-            backgroundColor: string;
+            textTransform: string;
+            fontWeight: string;
+            fontSize: string;
         };
     };
     secondary: {
         backgroundColor: string;
         border: string;
+        borderRadius: string;
         borderColor: string;
         boxShadow: string;
         color: string;
@@ -48,18 +49,22 @@ export declare const styleVariants: {
         color: string;
     };
     subtle: {
+        borderRadius: string;
         backgroundColor: string;
         color: string;
     };
     danger: {
+        borderRadius: string;
         backgroundColor: string;
         color: string;
     };
     success: {
+        borderRadius: string;
         backgroundColor: string;
         color: string;
     };
     text: {
+        borderRadius: string;
         backgroundColor: string;
         color: string;
         boxShadow: string;

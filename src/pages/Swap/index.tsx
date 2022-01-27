@@ -389,7 +389,7 @@ const Swap = () => {
                     (wrapType === WrapType.WRAP ? 'Wrap' : wrapType === WrapType.UNWRAP ? 'Unwrap' : null)}
                 </Button>
               ) : noRoute && userHasSpecifiedInputOutput ? (
-                <GreyCard style={{ textAlign: 'center' }}>
+                <GreyCard style={{ textAlign: 'center', height: '50px', paddingTop: '13px', borderRadius: '100px' }}>
                   <Text mb="4px">{TranslateString(1194, 'Insufficient liquidity for this trade.')}</Text>
                 </GreyCard>
               ) : showApproveFlow ? (

@@ -7,7 +7,7 @@ import Logo from '../Logo'
 import CoinLogo from '../pancake/CoinLogo'
 
 const getTokenLogoURL = (address: string) =>
-  `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/${address}/logo.png`
+`https://padswap.exchange/bsc/images/coins/${address}.png`
 
 const StyledBnbLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};
