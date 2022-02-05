@@ -76,38 +76,6 @@
       "logoURI": "https://padswap.exchange/bsc/images/coins/0xa4FFfc757e8c4F24E7b209C033c123D20983Ad40.png"
     },
     {
-      "name": "PORN ROCKET",
-      "symbol": "PORNROCKET",
-      "address": "0xcf9f991b14620f5ad144eec11f9bc7bf08987622",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://padswap.exchange/bsc/images/coins/0xcf9f991b14620f5ad144eec11f9bc7bf08987622.png"
-    },
-    {
-      "name": "Lazy Finance",
-      "symbol": "LAZY",
-      "address": "0x3f3d55028207348ef3c0cF705fa1a2633858C8a9",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://padswap.exchange/bsc/images/coins/0x3f3d55028207348ef3c0cF705fa1a2633858C8a9.png"
-    },
-    {
-      "name": "JEJUDOGE BSC",
-      "symbol": "JEJUDOGE",
-      "address": "0x2020EB9E26aa49c27ebB72C174cfbab851f7ddE0",
-      "chainId": 56,
-      "decimals": 9,
-      "logoURI": "https://padswap.exchange/bsc/images/coins/0x2020EB9E26aa49c27ebB72C174cfbab851f7ddE0.png"
-    },
-    {
-      "name": "BULLISH JACKPOT",
-      "symbol": "BJT",
-      "address": "0x37f3ef4e065f3415d1b6f9284389cc9d9439f658",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/bsc/images/coins/0x37f3ef4e065f3415d1b6f9284389cc9d9439f658.png"
-    },
-    {
       "name": "PARADOX NFT BSC",
       "symbol": "PXBSC",
       "address": "0xa4cfe5ea184a9a8bb2bb8377a378606a36ddea80",
@@ -186,6 +154,14 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://padswap.exchange/bsc/images/coins/0x001Ef4385D199454b76527fd91Af3Da8C0a51537.png"
+    },
+    {
+      "name": "Swamp King Capital",
+      "symbol": "SKC",
+      "address": "0x18e68f649f27719c185ae3d13098163336ec2f8c",
+      "chainId": 56,
+      "decimals": 4,
+      "logoURI": "https://padswap.exchange/bsc/images/coins/0x18e68f649f27719c185ae3d13098163336ec2f8c.png"
     }
   ]
 }
